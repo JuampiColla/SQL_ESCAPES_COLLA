@@ -33,7 +33,7 @@ INSERT INTO modelo_auto ( id_marca, modelo_auto, año) VALUES
 (2, "cronos", 2022),
 (2, "strada", 2010),
 (2, "argo", 2015),
-(3, "onix", 2010)
+(3, "onix", 2010),
 (3, "corsa", 2012),
 (3, "cruze", 2010),
 (3, "s10", 2015),
