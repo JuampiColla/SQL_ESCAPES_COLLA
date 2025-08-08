@@ -158,3 +158,4 @@ INSERT INTO piezas (id_tipo, id_modelo, precio) VALUES
 (4, 24, 54000);  -- segundo silenciador, alaskan
 
 -- por el momento creo que estarian todos los datos cargados, ahora vamos a crear una vista para que se vean los nombres de las partes, marcas y modelos de los autos
+-- revisar porque me permitio hacer 2 veces el mismo insert de modelo_auto
