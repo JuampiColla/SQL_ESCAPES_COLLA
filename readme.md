@@ -1,1 +1,3 @@
-C:\Program Files\Git\cmd
+Este proyecto consiste en el diseño y desarrollo de una base de datos orientada a la gestión de un negocio dedicado a la venta y colocación de caños de escape para automóviles. La base de datos permite almacenar y organizar información sobre clientes, marcas y modelos de autos, tipos de partes de escape, piezas individuales y sus precios.
+
+El objetivo principal es facilitar la administración de los datos relacionados con los productos y servicios ofrecidos, permitiendo un control eficiente de las piezas disponibles, los modelos compatibles, los clientes y sus compras. Además, la estructura de la base de datos está pensada para poder realizar consultas y reportes que ayuden a la toma de decisiones en el negocio.
