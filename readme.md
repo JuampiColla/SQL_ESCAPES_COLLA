@@ -56,3 +56,21 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Clave primaria:** id_pieza (identificador único de la pieza).
 - **Claves foráneas:** id_tipo (relaciona la pieza con un tipo de parte), id_modelo (relaciona la pieza con un modelo de auto).
 - La clave primaria "id_pieza" asegura la unicidad de cada pieza. Las claves foráneas "id_tipo" y "id_modelo" mantienen la integridad referencial con las tablas "tipos_parte" y "modelo_auto", respectivamente.
+
+##  Enlaces
+
+
+
+[Tablas](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/tablas.SQL)¨
+
+[Inserción de valores](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/inserciones.SQL)
+
+[Vistas](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/vistas.SQL)
+
+[Diagrama Entidad-Relación](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/Diagrama%20ER.pdf)
+
+[Comentarios](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/Comentarios.SQL)
+
+
+Alumno: Colla, Juan Pablo
+Comisión: 81830
