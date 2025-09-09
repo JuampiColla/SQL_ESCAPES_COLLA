@@ -25,7 +25,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **No tiene claves foráneas.**
 - La clave primaria "id_cliente" se seleccionó para asegurar la unicidad de cada cliente. El campo "mail" es único para evitar registros duplicados de clientes.
 
----
+
 
 ### Tabla "marca_auto":
 
@@ -33,7 +33,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **No tiene claves foráneas.**
 - La clave primaria "id_marca" garantiza que cada marca de auto sea única en la base de datos.
 
----
+
 
 ### Tabla "modelo_auto":
 
@@ -41,7 +41,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Clave foránea:** id_marca (relaciona cada modelo con una marca de auto).
 - La clave primaria "id_modelo" asegura la unicidad de cada modelo. La clave foránea "id_marca" mantiene la integridad referencial con la tabla "marca_auto".
 
----
+
 
 ### Tabla "tipos_parte":
 
@@ -49,7 +49,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **No tiene claves foráneas.**
 - La clave primaria "id_tipo" permite identificar de forma única cada tipo de parte de escape.
 
----
+
 
 ### Tabla "piezas":
 
@@ -59,7 +59,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 
 ## Listado de Vistas
 
----
+
 
 ### 1. **vista_piezas**
 
@@ -75,7 +75,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - modelo_auto  
   - marca_auto
 
----
+
 
 ### 2. **vista_marcas**
 
@@ -88,7 +88,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Tablas que la componen:**  
   - marca_auto
 
----
+
 
 ### 3. **vista_marcas_con_modelos**
 
@@ -102,7 +102,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - marca_auto  
   - modelo_auto
 
----
+
 
 ### 4. **vista_marcas_modelos**
 
@@ -116,7 +116,8 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - marca_auto  
   - modelo_auto
 
----
+
+
 ##  Enlaces
 
 
