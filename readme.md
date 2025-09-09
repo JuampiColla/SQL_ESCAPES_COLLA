@@ -116,7 +116,76 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - marca_auto  
   - modelo_auto
 
+---
 
+## Listado de Funciones
+
+### 1. **contar_piezas_por_modelo**
+
+- **Descripción:**  
+  Esta función devuelve la cantidad total de piezas asociadas a un modelo de auto específico. Permite conocer cuántas piezas están registradas para cada modelo en la base de datos.
+
+- **Objetivo:**  
+  Facilitar el análisis de inventario y la gestión de stock por modelo de auto, ayudando a identificar modelos con mayor o menor cantidad de piezas disponibles.
+
+- **Tablas que manipula:**  
+  - piezas
+
+
+
+### 2. **clientes_por_localidad**
+
+- **Descripción:**  
+  Esta función devuelve la cantidad de clientes registrados en una localidad específica. Permite filtrar y contar los clientes según su ubicación.
+
+- **Objetivo:**  
+  Facilitar la segmentación de clientes por zona geográfica, útil para campañas de marketing, logística y atención personalizada.
+
+- **Tablas que manipula:**  
+  - clientes
+
+
+## Listado de Stored Procedures
+
+### 1. **sp_insertar_cliente**
+
+- **Descripción:**  
+  Este procedimiento almacenado permite agregar un nuevo cliente a la base de datos, asegurando que todos los datos requeridos sean ingresados correctamente y evitando duplicados por correo electrónico.
+
+- **Objetivo:**  
+  Facilitar el registro controlado de clientes, mejorar la integridad de los datos y reducir errores en la carga manual.
+
+- **Tablas que interactúa:**  
+  - clientes
+
+---
+
+### 2. **sp_listar_piezas_por_modelo**
+
+- **Descripción:**  
+  Devuelve el listado de todas las piezas asociadas a un modelo de auto específico, mostrando información relevante como tipo de parte y precio.
+
+- **Objetivo:**  
+  Permitir la consulta rápida de inventario por modelo de auto, útil para ventas y gestión de stock.
+
+- **Tablas que interactúa:**  
+  - piezas  
+  - tipos_parte
+
+---
+
+### 3. **sp_actualizar_precio_pieza**
+
+- **Descripción:**  
+  Permite actualizar el precio de una pieza específica en la base de datos, identificada por su id_pieza.
+
+- **Objetivo:**  
+  Mantener los precios actualizados de las piezas, permitiendo una gestión ágil de cambios de precios por parte del administrador.
+
+- **Tablas que interactúa:**  
+  - piezas
+
+---
 
 ##  Enlaces
 
