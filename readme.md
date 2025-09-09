@@ -158,7 +158,6 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Tablas que interactúa:**  
   - clientes
 
----
 
 ### 2. **sp_listar_piezas_por_modelo**
 
@@ -172,7 +171,6 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - piezas  
   - tipos_parte
 
----
 
 ### 3. **sp_actualizar_precio_pieza**
 
@@ -185,7 +183,6 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Tablas que interactúa:**  
   - piezas
 
----
 
 ##  Enlaces
 
@@ -196,6 +193,11 @@ La organización que utiliza esta solución es un taller y comercio especializad
 [Inserción de valores](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/inserciones.SQL)
 
 [Vistas](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/vistas.SQL)
+
+[Funciones](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/funciones.SQL)
+
+[Stored Procedures](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/stored_procedures.SQL)
+
 
 [Diagrama Entidad-Relación](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/Diagrama%20ER.pdf)
 
