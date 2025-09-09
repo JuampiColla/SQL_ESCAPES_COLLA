@@ -57,6 +57,66 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Claves foráneas:** id_tipo (relaciona la pieza con un tipo de parte), id_modelo (relaciona la pieza con un modelo de auto).
 - La clave primaria "id_pieza" asegura la unicidad de cada pieza. Las claves foráneas "id_tipo" y "id_modelo" mantienen la integridad referencial con las tablas "tipos_parte" y "modelo_auto", respectivamente.
 
+## Listado de Vistas
+
+---
+
+### 1. **vista_piezas**
+
+- **Descripción:**  
+  Esta vista muestra información detallada de cada pieza, incluyendo el nombre del tipo de parte, la marca y el modelo del auto, el año y el precio. Permite visualizar los datos de manera legible, reemplazando los identificadores numéricos por nombres descriptivos.
+
+- **Objetivo:**  
+  Facilitar la consulta y el análisis de las piezas disponibles, mostrando información relevante y comprensible para el usuario o el administrador del sistema.
+
+- **Tablas que la componen:**  
+  - piezas  
+  - tipos_parte  
+  - modelo_auto  
+  - marca_auto
+
+---
+
+### 2. **vista_marcas**
+
+- **Descripción:**  
+  Vista simple que muestra el listado de todas las marcas de autos registradas en la base de datos.
+
+- **Objetivo:**  
+  Permitir la consulta rápida de las marcas disponibles sin necesidad de acceder directamente a la tabla principal.
+
+- **Tablas que la componen:**  
+  - marca_auto
+
+---
+
+### 3. **vista_marcas_con_modelos**
+
+- **Descripción:**  
+  Muestra cada marca de auto junto con la cantidad de modelos asociados a ella.
+
+- **Objetivo:**  
+  Brindar una visión analítica sobre la variedad de modelos que ofrece cada marca, útil para reportes y análisis de inventario.
+
+- **Tablas que la componen:**  
+  - marca_auto  
+  - modelo_auto
+
+---
+
+### 4. **vista_marcas_modelos**
+
+- **Descripción:**  
+  Presenta el listado de marcas de autos junto con sus modelos y el año de cada modelo.
+
+- **Objetivo:**  
+  Facilitar la consulta de los modelos disponibles para cada marca, ordenados por marca, modelo y año.
+
+- **Tablas que la componen:**  
+  - marca_auto  
+  - modelo_auto
+
+---
 ##  Enlaces
 
 

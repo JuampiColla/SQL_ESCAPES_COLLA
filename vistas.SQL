@@ -32,3 +32,4 @@ SELECT m.marca, md.modelo_auto, md.año
 FROM marca_auto m
 JOIN modelo_auto md ON m.id_marca = md.id_marca
 ORDER BY m.marca, md.modelo_auto, md.año;
+
