@@ -172,16 +172,6 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - tipos_parte
 
 
-### 3. **sp_actualizar_precio_pieza**
-
-- **Descripción:**  
-  Permite actualizar el precio de una pieza específica en la base de datos, identificada por su id_pieza.
-
-- **Objetivo:**  
-  Mantener los precios actualizados de las piezas, permitiendo una gestión ágil de cambios de precios por parte del administrador.
-
-- **Tablas que interactúa:**  
-  - piezas
 
 
 ##  Enlaces
@@ -198,8 +188,13 @@ La organización que utiliza esta solución es un taller y comercio especializad
 
 [Stored Procedures](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/stored_procedures.SQL)
 
+[Trigger](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/trigger.SQL)
+
+[Casos prueba](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/caso_prueba.SQL)
 
 [Diagrama Entidad-Relación](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/Diagrama%20ER.pdf)
+
+
 
 [Comentarios](https://github.com/JuampiColla/SQL_ESCAPES_COLLA/blob/master/Comentarios.SQL)
 
