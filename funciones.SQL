@@ -1,3 +1,5 @@
+USE caños_escapes;
+
 -- Función para contar piezas por modelo
 DELIMITER //
 CREATE FUNCTION contar_piezas_por_modelo(p_id_modelo INT)

@@ -1,3 +1,4 @@
+USE caños_escapes;
 -- esta vista sirve para que vea los nombres y no los numeros de las partes, marcas y modelos de los autos
 CREATE VIEW vista_piezas AS
 SELECT 

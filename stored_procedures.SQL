@@ -1,3 +1,5 @@
+USE caños_escapes;
+
 -- Insertar un nuevo cliente
 DELIMITER //
 CREATE PROCEDURE sp_insertar_cliente(
