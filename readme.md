@@ -116,6 +116,18 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - marca_auto  
   - modelo_auto
 
+  ### vista_clientes_piezas_localidad
+
+- **Descripción:**  
+  Esta vista muestra el listado de localidades de los clientes junto con la cantidad de piezas registradas para cada localidad.
+
+- **Objetivo:**  
+  Permite analizar la distribución de piezas en función de la localidad de los clientes, facilitando la toma de decisiones logísticas y comerciales.
+
+- **Tablas que la componen:**  
+  - clientes  
+  - piezas
+
 ---
 
 ## Listado de Funciones
@@ -170,6 +182,8 @@ La organización que utiliza esta solución es un taller y comercio especializad
 - **Tablas que interactúa:**  
   - piezas  
   - tipos_parte
+
+
 
 
 

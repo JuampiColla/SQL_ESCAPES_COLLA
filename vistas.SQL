@@ -34,3 +34,12 @@ FROM marca_auto m
 JOIN modelo_auto md ON m.id_marca = md.id_marca
 ORDER BY m.marca, md.modelo_auto, md.año;
 
+-- Vista que muestra el listado de clientes junto con la cantidad de piezas que existen para cada localidad
+
+CREATE OR REPLACE VIEW vista_clientes_piezas_localidad AS
+SELECT 
+    c.localidad,
+    COUNT(p.id_pieza) AS cantidad_piezas
+FROM clientes c
+LEFT JOIN piezas p ON c.localidad = c.localidad
+GROUP BY c.localidad;
