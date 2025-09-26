@@ -116,7 +116,7 @@ La organización que utiliza esta solución es un taller y comercio especializad
   - marca_auto  
   - modelo_auto
 
-  ### vista_clientes_piezas_localidad
+  ### 5. vista_clientes_piezas_localidad
 
 - **Descripción:**  
   Esta vista muestra el listado de localidades de los clientes junto con la cantidad de piezas registradas para cada localidad.
